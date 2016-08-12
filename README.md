@@ -1,6 +1,5 @@
 # adTest
 
-npm install
-bower install
+npm install and bower install
 
 a [Sails](http://sailsjs.org) application
