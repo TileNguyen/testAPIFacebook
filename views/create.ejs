@@ -1,0 +1,15 @@
+<div class="center">
+  <h1>Add Campaigns</h1>
+  <form ng-submit="addCamp()" ng-controller="CampaignsCtrl">
+    Name: <input ng-model="camp.name" type="text"></input>
+  </br>
+  </br>
+  Objective:
+    <select ng-model="objective" ng-options="x for x in objectives">
+      <option value="">---Please select---</option>
+    </select>
+  </br>
+  </br>
+  <input type="submit" id="submit" value="Add campaigns"/>
+  </form>
+</div>
